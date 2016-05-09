@@ -23163,14 +23163,14 @@
 								t.scrollTo(0, i.maxScrollY + n);
 								s.removeClass("down")
 							} else if (e >= 0) {
-								s.attr("src", "img/ajax-loader.gif");
+								s.attr("src", "/goldbank/images/ajax-loader.gif");
 								var i = this;
 								setTimeout(function() {
 									$(".foot").before('<div class="item">add 1</div>' + '<div class="item">add 2</div>' + '<div class="item">add 3</div>' + '<div class="item">add 4</div>' + '<div class="item">add 5</div>');
 									t.refresh();
 									t.scrollTo(0, i.y + n);
 									s.removeClass("down");
-									s.attr("src", "img/arrow.png")
+									s.attr("src", "/goldbank/images/arrow.png")
 								}, 2e3)
 							}
 						})
